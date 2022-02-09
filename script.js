@@ -44,3 +44,9 @@ helloButton.addEventListener('click', function() {
    h1.textContent = num;
 });
 
+
+let example6Div = document.querySelector('#example6');
+example6Div.addEventListener('click', function(){
+   example6Div. =  `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
+});
+
