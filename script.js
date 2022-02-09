@@ -45,8 +45,11 @@ helloButton.addEventListener('click', function() {
 });
 
 
-let example6Div = document.querySelector('#example6');
-example6Div.addEventListener('click', function(){
-   example6Div. =  `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
+document.querySelector('#example6').addEventListener('click', function() {
+   this.style.color =  `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
 });
 
+let example7Div = document.querySelector('#example7');
+example7Div.addEventListener('click', function(){
+   example7Div.remove();
+})
