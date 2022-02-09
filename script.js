@@ -64,9 +64,14 @@ document.getElementById('level1').addEventListener('click', function() {
    alert ("level 1 clicked");
 })
 
+
+let countdown = 3;
+
+
 let example8Button = document.getElementById('example8');
 example8Button.addEventListener('click', function() {
    alert("Hello!");
    alert("Nice to meet you!");
    alert("Bye!");
 });
+
