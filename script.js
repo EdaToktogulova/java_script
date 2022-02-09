@@ -18,3 +18,4 @@ example5Div.addEventListener('click', function(){
    alert(example5Div.textContent.length);
 });
 
+let num = 0;
