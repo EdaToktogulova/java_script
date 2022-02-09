@@ -38,3 +38,9 @@ decreaseButton.addEventListener('click', function() {
    h1.textContent = num;
 });
 
+let helloButton = document.querySelector('#hello');
+helloButton.addEventListener('click', function() {
+   num = num * 0;
+   h1.textContent = num;
+});
+
