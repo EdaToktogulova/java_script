@@ -53,3 +53,7 @@ let example7Div = document.querySelector('#example7');
 example7Div.addEventListener('click', function(){
    example7Div.remove();
 })
+
+document.getElementById('level3').addEventListener('click', function() {
+   alert ("level 3 clicked");
+})
