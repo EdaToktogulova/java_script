@@ -57,3 +57,16 @@ example7Div.addEventListener('click', function(){
 document.getElementById('level3').addEventListener('click', function() {
    alert ("level 3 clicked");
 })
+document.getElementById('level2').addEventListener('click', function() {
+   alert ("level 2 clicked");
+})
+document.getElementById('level1').addEventListener('click', function() {
+   alert ("level 1 clicked");
+})
+
+let example8Button = document.getElementById('example8');
+example8Button.addEventListener('click', function() {
+   alert("Hello!");
+   alert("Nice to meet you!");
+   alert("Bye!");
+});
